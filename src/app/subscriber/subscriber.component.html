@@ -1,2 +1,30 @@
-  <h2>Subscriber</h2>
-  <div>Message Received: {{message}} </div>
+  	<h2>Subscribers</h2>
+
+  	<div class="grid grid-pad">
+	  <div class="col-1-3">
+	    <div class="module">
+		  <h4>Subscriber 1</h4>
+		  Filter: &nbsp; <input #filterBox1 [(ngModel)]='filter1' id="filterBox1" value="age=5" (keyup)="subscribe1(filterBox1.value)"/>
+		  <div>Message Received: {{message1}} </div>
+		</div>
+	  </div>
+
+	  <div class="col-1-3">
+	    <div class="module">
+		  <h4>Subscriber 2</h4>
+		  Filter: &nbsp; <input #filterBox2 id="filterBox2" value="age=13" (keyup)="subscribe2(filterBox2.value)" />
+		  <div>Message Received: {{message2}} </div>
+
+		</div>
+	  </div>
+
+	  <div class="col-1-3">
+	    <div class="module">
+		  <h4>Subscriber 3</h4>
+		  Filter: &nbsp; <input #filterBox3  id="filterBbox3" value="age=25" (keyup)="subscribe3(filterBox3.value)" />
+		  <div>Message Received: {{message3}} </div>
+		</div>
+	  </div>
+	</div>
+
+	

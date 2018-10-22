@@ -10,18 +10,17 @@ import { Ng2MessageQueue } from 'ng2-message-queue';
   styleUrls: [ './publisher.component.css' ]
 })
 export class PublisherComponent implements OnInit {
-  private searchTerms: string;
 
   constructor(private messageService: Ng2MessageQueue) {
     messageService.createQueue('myQueue');
   }
 
-  // Push a search term into the queue.
-  search(term: string): void {
-    this.messageService.publish('myQueue', term);
+  // Push a search message into the queue.
+  postMessage(message: string, headers: any): void {
+    this.messageService.publish('myQueue', JSON.parse(headers) , message);
   }
 
   ngOnInit() {
-    
+
   }
 }

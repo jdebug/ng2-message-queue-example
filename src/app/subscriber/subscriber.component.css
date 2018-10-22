@@ -32,3 +32,25 @@ button.clear {
   color: #888;
   margin-bottom: 12px;
 }
+
+.grid {
+  margin: 0;
+}
+.col-1-3 {
+  width: 30%;
+  float: left;
+}
+
+.module {
+  padding: 20px;  
+  color: #607d8b;
+  background-color: #EEE;
+  border-radius: 2px;
+}
+
+.grid-pad {
+  padding: 10px 0;
+}
+.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
+}

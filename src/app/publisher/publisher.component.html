@@ -2,5 +2,6 @@
 <div id="search-component">
   <h4>Enter Message (message will be published into queue as you enter)</h4>
 
-  <input #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+  Message To Post: &nbsp; <input #messageBox id="message-box" (keyup)="postMessage(messageBox.value, headersBox.value)" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Header JSON: &nbsp; <input #headersBox id="headers-box" value='{"age": 25}' /> (Filters will be applied on message header properties)
 </div>
