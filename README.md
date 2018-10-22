@@ -31,9 +31,13 @@ npm install ng2-message-queue
 
 ### Import into Angular 2+ application (typescript)
 
-`ng2-message-queue` is implemented as Angular 2+ injectable service name __Ng2Ng2MessageQueueueue__.
+`ng2-message-queue` is implemented as Angular 2+ injectable service name __Ng2MessageQueue__.
 
-__For module using Ng2Ng2MessageQueue__
+__For app using angular version 6+__
+
+`Ng2MessageQueue` is Injectable as root so no additional decalaration is required in any module.
+
+__Each module to use Ng2MessageQueue__
 (required only for apps using angular version prior to 6)
 Add `Ng2MessageQueue` into module providers (eg. [app.module.ts](https://github.com/jdebug/ng2-message-queue/blob/master/app/app.module.ts)).
 
@@ -45,12 +49,12 @@ import { Ng2MessageQueue } from 'ng2-message-queue';
 })
 ```
 
-__For each child component using Ng2MessageQueue__
+__Each component to use Ng2MessageQueue__
 
 ```javascript
 import { Ng2MessageQueue } from 'ng2-message-queue';
 
-export class ChildComponent {
+export class MyComponent {
 
 	constructor(private mq: Ng2MessageQueue) { }
 
