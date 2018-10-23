@@ -14,6 +14,7 @@ This is an example for [ng2-message-queue](https://github.com/jdebug/ng2-message
 * [API Details](#api-details)
 * [Usage](#Usage)
 * [Contributors](#Contributors)
+* [Screenshot](#Screenshot)
 * [License](#License)
 
 
