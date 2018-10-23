@@ -33,6 +33,10 @@ npm start
 
 * [JDebug](https://github.com/jdebug)
 
+## Screenshot
+
+![Example App](https://github.com/jdebug/ng2-message-queue-example/blob/master/ScreenShot.png)
+
 ## Credits
 
 * John Sing Dao Siu
