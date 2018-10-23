@@ -31,7 +31,7 @@ npm install
 npm start
 ```
 
-## Usage
+## Live Demo
 
 * [Live Demo.. Try it!!](https://jdebug.github.io/ng2-message-queue-example/index.html)
 
