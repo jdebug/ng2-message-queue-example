@@ -13,6 +13,7 @@ This is an example for [ng2-message-queue](https://github.com/jdebug/ng2-message
 
 * [API Details](#api-details)
 * [Usage](#Usage)
+* [Live Demo](#live-demo)
 * [Contributors](#Contributors)
 * [Screenshot](#Screenshot)
 * [License](#License)
@@ -29,6 +30,10 @@ This is an example for [ng2-message-queue](https://github.com/jdebug/ng2-message
 npm install
 npm start
 ```
+
+## Usage
+
+* [Live Demo.. Try it!!](https://jdebug.github.io/ng2-message-queue-example/index.html)
 
 ## Contributors
 
