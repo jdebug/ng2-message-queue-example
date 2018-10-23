@@ -11,9 +11,18 @@ This is an example for [ng2-message-queue](https://github.com/jdebug/ng2-message
 
 ## Index
 
+* [API Details](#apidetails)
 * [Usage](#Usage)
 * [Contributors](#Contributors)
 * [License](#License)
+
+
+## API Details
+* [https://blog.jdebugger.com/2018/10/angular-message-queue.html
+](https://blog.jdebugger.com/2018/10/angular-message-queue.html)
+
+
+* [JDebug](https://github.com/jdebug)
 
 ## Usage
 
@@ -24,7 +33,7 @@ npm start
 
 ## Contributors
 
-* [JDebug](https://github.com/Jdebug)
+* [JDebug](https://github.com/jdebug)
 
 ## Credits
 
