@@ -13,7 +13,7 @@ export class SubscriberComponent implements OnInit {
   
   @Input() filter1: string = 'age<=5 & gender=M';
   @Input() filter2: string = 'age=13';
-  @Input() filter3: string = 'age=5 & gender=F';
+  @Input() filter3: string = 'age=25 & gender=F';
 
   subscriberId1: string;
   subscriberId2: string;
