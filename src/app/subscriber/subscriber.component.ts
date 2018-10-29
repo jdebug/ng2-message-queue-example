@@ -11,8 +11,8 @@ export class SubscriberComponent implements OnInit {
   message2: any;
   message3: any;
   
-  @Input() filter1: string = 'age<=5 & gender=M';
-  @Input() filter2: string = 'age=13';
+  @Input() filter1: string = 'age<=5 & ((gender=M & state=NJ) | gender=F)';
+  @Input() filter2: string = 'age=13 & (gender=M | gender=F)';
   @Input() filter3: string = 'age=25 & gender=F';
 
   subscriberId1: string;
