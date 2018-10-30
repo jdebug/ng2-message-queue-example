@@ -1,12 +1,12 @@
 # ng2-message-queue-example
 
 A message queue for Angular 2+ application components to communication each other.
-`ng2-message-queue` supports message headers and payload. It also supports subscribers
+`ngx-message-queue` supports message headers and payload. It also supports subscribers
 to subscribe to only messages with specific message header via 'msgSelector'.
 
 Message header supports only JSON object. Message payload can be any type.
 
-This is an example for [ng2-message-queue](https://github.com/jdebug/ng2-message-queue)
+This is an example for [ngx-message-queue](https://github.com/jdebug/ng2-message-queue)
 
 
 ## Index

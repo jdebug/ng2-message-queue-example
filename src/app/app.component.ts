@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Sample App to demo the ng2-message-queue library capabilities';
+  title = 'Sample App to demo the ngx-message-queue library capabilities';
 }

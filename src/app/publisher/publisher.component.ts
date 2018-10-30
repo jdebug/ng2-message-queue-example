@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Observable, Subject } from 'rxjs';
 
-import { Ng2MessageQueue } from 'ng2-message-queue';
+import { NgxMessageQueue } from 'ngx-message-queue';
 
 @Component({
   selector: 'app-publisher',
@@ -11,7 +11,7 @@ import { Ng2MessageQueue } from 'ng2-message-queue';
 })
 export class PublisherComponent implements OnInit {
 
-  constructor(private messageService: Ng2MessageQueue) {
+  constructor(private messageService: NgxMessageQueue) {
     messageService.createQueue('myQueue');
   }
 

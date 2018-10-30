@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Ng2MessageQueue } from 'ng2-message-queue';
+import { NgxMessageQueue } from 'ngx-message-queue';
 
 @Component({
   selector: 'app-subscriber',
@@ -19,7 +19,7 @@ export class SubscriberComponent implements OnInit {
   subscriberId2: string;
   subscriberId3: string;
 
-  constructor(public messageService: Ng2MessageQueue) {}
+  constructor(public messageService: NgxMessageQueue) {}
 
   ngOnInit() {
   	this.subscriberId1 = this.messageService.subscribe('myQueue', this.filter1, (headers, payload) => this.handleMessage1(headers, payload));

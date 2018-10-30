@@ -500,7 +500,7 @@ MIT
 @angular/core
 MIT
 
-ng2-message-queue
+ngx-message-queue
 MIT License. See more in LICENSE
 MIT License
 
